@@ -1,0 +1,153 @@
+/* Custom styles to enhance Bootstrap */
+/* Dark theme styles */
+body {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+.card {
+    border: none;
+    background-color: #121212 !important;
+    border-color: #2d2d2d !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+}
+
+.card {
+    background-color: #121212 !important;
+    border: 1px solid #333333 !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5) !important;
+}
+
+.card-header {
+    background-color: #000000 !important;
+    border-bottom: 1px solid #2d2d2d !important;
+}
+
+.card-header {
+    background-color: #1a1a1a !important;
+    border-bottom: 1px solid #333333 !important;
+    color: #ffffff !important;
+}
+
+.entry-card .card {
+    transition: all 0.3s ease;
+}
+
+.entry-card .card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
+    transform: translateY(-2px);
+}
+
+.entry-card .card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6) !important;
+    transform: translateY(-2px);
+}
+
+.remove-entry {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.form-control, .form-select {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333333 !important;
+    color: #ffffff !important;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #262626 !important;
+    border-color: #404040 !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.15) !important;
+}
+
+.form-control::placeholder {
+    color: #808080 !important;
+}
+
+.form-label, .text-muted {
+    color: #cccccc !important;
+}
+
+h2, .docId {
+    color: #ffffff !important;
+}
+
+.btn-light {
+    background-color: #333333 !important;
+    border-color: #404040 !important;
+    color: #ffffff !important;
+}
+
+.btn-light:hover {
+    background-color: #404040 !important;
+    border-color: #4d4d4d !important;
+    color: #ffffff !important;
+}
+
+.btn-danger {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.btn-danger:hover {
+    background-color: #c82333 !important;
+    border-color: #bd2130 !important;
+}
+
+/* Custom scrollbar for better UX */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333333;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #404040;
+}
+
+/* Invalid form control */
+.form-control.is-invalid {
+    border-color: #dc3545 !important;
+    background-color: #2a1a1a !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .card-header h2 {
+        font-size: 1.5rem;
+    }
+}
