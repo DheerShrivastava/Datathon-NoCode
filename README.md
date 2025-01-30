@@ -7,3 +7,7 @@ As we all know that small business user struggle to keep their records and get a
 ## Problem
 
 The convertion of Pdf file into excel under the tab lets Go might not work when it is deployed but it is working when run locally. We are try our best to identify the problem and solve it as soon as possible.
+
+## Requirement 
+If you are using VS Code then run the following command in the terminal for the execution of the Code
+pip install pdfplumber pandas
